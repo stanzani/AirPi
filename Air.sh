@@ -22,7 +22,7 @@ sudo make install
 
 sudo mkdir -p /home/shairport-sync/.config/pulse
 
-sudo chown shairport-sync /home/shairport-sync/.config/pulse
+sudo chown -R shairport-sync /home/shairport-sync
 
 sudo service shairport-sync restart
 

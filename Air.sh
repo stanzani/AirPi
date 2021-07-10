@@ -20,6 +20,12 @@ make
 
 sudo make install
 
+sudo mkdir -p /home/shairport-sync/.config/pulse
+
+sudo chown shairport-sync /home/shairport-sync/.config/pulse
+
+sudo service shairport-sync restart
+
 sudo service shairport-sync start
 
 sudo systemctl enable shairport-sync

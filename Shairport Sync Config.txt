@@ -1,0 +1,22 @@
+Config in the following file:
+
+vim /usr/local/etc/shairport-sync.conf
+
+---
+set a name you'd like to see on your phone - uncomment and change the line 
+---
+
+general = {
+    name = "My AirPi";
+...
+
+---
+set the default device output, you can find it running the command # shairport-sync -h
+---
+
+alsa = {
+  output_device = "hw:0";
+  mixer_control_name = "PCM";
+};
+
+---
